@@ -6,7 +6,7 @@
   "support": {
     "issues": "https://github.com/Islandora-CLAW/CLAW/issues",
     "irc": "irc://irc.freenode.org/islandora",
-    "source": "https://github.com/aOelschlager/migrate_7x_claw"
+    "source": "https://github.com/Islandora-Devops/migrate_7x_claw"
   },
   "license": "GPL-2.0-or-later",
   "repositories": [
