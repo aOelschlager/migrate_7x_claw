@@ -198,6 +198,17 @@ process:
     -
       plugin: static_map
       map:
+        'Collection': http://purl.org/dc/dcmitype/Collection
+        'Dataset': http://purl.org/dc/dcmitype/Dataset
+        'Image': http://purl.org/dc/dcmitype/Image
+        'Interactive Resource': http://purl.org/dc/dcmitype/InteractiveResource
+        'Moving Image': http://purl.org/dc/dcmitype/MovingImage
+        'Physical Object': http://purl.org/dc/dcmitype/PhysicalObject
+        'Service': http://purl.org/dc/dcmitype/Service
+        'Sound': http://purl.org/dc/dcmitype/Sound
+        'Still Image': http://purl.org/dc/dcmitype/StillImage
+        'Software': http://purl.org/dc/dcmitype/Software
+        'Text': http://purl.org/dc/dcmitype/Text
         'still image': http://purl.org/dc/dcmitype/StillImage
         'text': http://purl.org/dc/dcmitype/Text
         'cartographic': http://purl.org/dc/dcmitype/Image
