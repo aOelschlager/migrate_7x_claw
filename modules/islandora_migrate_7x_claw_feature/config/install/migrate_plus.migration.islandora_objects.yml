@@ -56,7 +56,7 @@ source:
     -
       name: resource_type 
       label: 'Type of Resource'
-      selector: 'mods_typeOfResource_s'
+      selector: 'mods_resource_type_ms'
     -
       name: identifier 
       label: 'Identifier'
