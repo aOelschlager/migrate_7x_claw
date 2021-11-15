@@ -321,7 +321,7 @@ process:
       image/gif: gif
       image/ief: ief
       image/jp2: jp2
-      image/jpeg: jfif
+      image/jpeg: jpg
       image/jpg: jpg
       image/jutvision: jut
       image/naplps: nap
