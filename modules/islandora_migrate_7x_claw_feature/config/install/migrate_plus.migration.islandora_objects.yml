@@ -182,7 +182,9 @@ process:
         info:fedora/islandora:sp-audioCModel: http://purl.org/coar/resource_type/c_18cc
         info:fedora/islandora:sp_videoCModel: http://purl.org/coar/resource_type/c_12ce
         info:fedora/islandora:sp_large_image_cmodel: http://purl.org/coar/resource_type/c_c513
-      default_value: http://purl.org/coar/resource_type/c_1843
+        info:fedora/islandora:bookCModel: https://schema.org/Book
+        info:fedora/islandora:pageCModel: http://id.loc.gov/ontologies/bibframe/part
+      default_value: http://purl.org/dc/dcmitype/Collection
     -
       plugin: entity_lookup
       value_key: field_external_uri 
@@ -198,6 +200,7 @@ process:
     -
       plugin: static_map
       map:
+        info:fedora/islandora:collectionCModel: http://purl.org/dc/dcmitype/Collection
         'Collection': http://purl.org/dc/dcmitype/Collection
         'Dataset': http://purl.org/dc/dcmitype/Dataset
         'Image': http://purl.org/dc/dcmitype/Image
