@@ -182,6 +182,8 @@ process:
         info:fedora/islandora:sp-audioCModel: http://purl.org/coar/resource_type/c_18cc
         info:fedora/islandora:sp_videoCModel: http://purl.org/coar/resource_type/c_12ce
         info:fedora/islandora:sp_large_image_cmodel: http://purl.org/coar/resource_type/c_c513
+        info:fedora/islandora:bookCModel: https://schema.org/Book
+        info:fedora/islandora:pageCModel: http://id.loc.gov/ontologies/bibframe/part
       default_value: http://purl.org/coar/resource_type/c_1843
     -
       plugin: entity_lookup
