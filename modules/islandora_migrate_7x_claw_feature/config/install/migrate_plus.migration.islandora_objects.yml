@@ -201,6 +201,7 @@ process:
       plugin: static_map
       map:
         'info:fedora/islandora:collectionCModel': http://purl.org/dc/dcmitype/Collection
+        'info:fedora/islandora:pageCModel': http://purl.org/dc/dcmitype/StillImage
         'Collection': http://purl.org/dc/dcmitype/Collection
         'Dataset': http://purl.org/dc/dcmitype/Dataset
         'Image': http://purl.org/dc/dcmitype/Image
